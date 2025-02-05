@@ -8,3 +8,4 @@ RUN <<EOF
   apt-get update && apt-get install odoo -y
 EOF
 
+CMD ["odoo"]
